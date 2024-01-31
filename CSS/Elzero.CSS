@@ -1036,14 +1036,14 @@ ul {
     margin-bottom: 0;
 }
 
-.services .container .box .footer {
+.services .container .box .footer-s {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.services .container .box .footer span {
+.services .container .box .footer-s span {
     width: 40%;
     height: 100%;
     background-color: var(--main-color);
@@ -1055,7 +1055,7 @@ ul {
     position: relative;
 }
 
-.services .container .box .footer span::before {
+.services .container .box .footer-s span::before {
     content: "";
     position: absolute;
     right: -36px;
@@ -1067,7 +1067,7 @@ ul {
     z-index: 1;
 }
 
-.services .container .box .footer div {
+.services .container .box .footer-s div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1076,7 +1076,7 @@ ul {
     background-color: #f9f9f9;
 }
 
-.services .container .box .footer div a {
+.services .container .box .footer-s div a {
     margin-right: 15px;
     color: var(--main-color);
 }
